@@ -111,6 +111,7 @@ int Check()
 
 void main()
 {
+    printf("\n\t!!!15 BLOCKS GAME !!!\n\n");
     int value=0, result=0;
     while ( value != 1)
     {
