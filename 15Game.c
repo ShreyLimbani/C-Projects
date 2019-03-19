@@ -12,7 +12,12 @@ void PrintMatrix()
     {
         printf("\n\t----------------\n\t");
         for(j=0; j<4; j++)
-            printf("|%2d|", matrix[i][j]);
+        {
+            if(matrix[i][j] != 0)
+                printf("|%2d|", matrix[i][j]);
+            else
+                printf("|  |");
+        }
     }
     printf("\n\t----------------\n");
 }
