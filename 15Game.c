@@ -116,10 +116,11 @@ int Check()
 
 void main()
 {
-    printf("\n\t!!!15 BLOCKS GAME !!!\n\n");
+    
     int value=0, result=0;
     while ( value != 1)
     {
+        printf("\n\t!!!15 BLOCKS GAME !!!\n\n");
     PrintMatrix();
     result = Check();
     if(result == 1)
